@@ -1,0 +1,29 @@
+.counter {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+
+  button {
+    font-size: large;
+    background-color: rgb(133, 0, 46);
+    color: #fff;
+    border-radius: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+
+    &:hover {
+      background-color: rgb(234, 54, 102);
+    }
+  }
+
+  span {
+    background-color: rgb(234, 54, 102);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    display: flex;
+    margin: 5px;
+  }
+}
